@@ -8,7 +8,7 @@ var history = $("#searchHistory");
 function getApi(cityName) {
   console.log(cityName);
   var requestUrl =
-    "http://api.openweathermap.org/data/2.5/forecast?q=" +
+    "https://api.openweathermap.org/data/2.5/forecast?q=" +
     cityName +
     "&units=imperial&appid=ea9aff33f304d2afc7927cf8a56cae75";
   // fetching is successful.
