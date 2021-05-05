@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
 
-  <header class="jumbotron jumbotron-fluid">
+  <header class="jumbotron jumbotron-fluid" style="text-align: center;">
     <h1 class="display-4">Check the Weather!</h1>
     <p>
       Use this application to check the weather wherever you are, and wherever
@@ -38,26 +38,34 @@
           <div class="card-body">
             <h5 class="card-title">Search for Weather</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Get the 5 day forecast!
             </p>
             <label for="cityInput">Choose a City:</label>
-            <input type="text" id="locationInput" />
+            <input type="text" placeholder="City" id="locationInput" value="" onclick="this.value=''"/>
 
             <button class="btn btn-primary" id="btn" style="margin: 10px">
-              Go somewhere
+              click
             </button>
           </div>
         </div>
+        <!-- search history -->
+        <div class="history col" id="searchHistory">
+          
+        </div>
+         <!-- id="weatherBox" -->
         <div class="box col">
-          <div class="row box-body">
-            <div
-              class="col border-5"
-              id="weatherBox"
-              style="background-color: aquamarine"
-            >
-              <!--  -->
-            </div>
+          <div class="box-body">
+            <section id="resultContent">
+
+            </section>
+
+          </div>
+
+        </div>
+          
+            
+             
+            
           </div>
         </div>
       </div>
