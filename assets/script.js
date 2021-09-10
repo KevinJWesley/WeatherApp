@@ -21,7 +21,7 @@ function getApi(cityName) {
     })
     .then(function (data) {
       displayForecast(data);
-    });
+    }); 
 }
 // DYNAMIC DISPLAY
 function displayForecast(data) {
