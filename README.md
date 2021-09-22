@@ -12,3 +12,6 @@
 Enter in the name of a US city. WHen you click the button the five day forecast will appear to right.
 
 ![alt text](/images/1.png)
+
+## Deployed App
+https://kevinjwesley.github.io/WeatherApp/
